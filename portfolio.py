@@ -1,8 +1,7 @@
 import pandas as pd
 import chromadb
 import uuid
-
-
+import sqlite3
 
 class Portfolio:
     def __init__(self, file_path="my_portfolio.csv"):
